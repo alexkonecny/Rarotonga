@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore the interactive Halloween Party project, showcasing responsive design, animations, and web development techniques. Immerse yourself in the spooky ambiance of Halloween.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <!-- Page Title -->
+    <title>Parallax Scrolling Website</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Open Graph meta tags for image sharing -->
+    <meta property="og:title" content="Parallax Scroll Site">
+    <meta property="og:description"
+        content="Explore the interactive Halloween Party project and Immerse yourself in the spooky ambiance of Halloween.">
+    <meta property="og:image" content="https://drive.google.com/uc?id=1GFbBHTi7w8weRVqLJ7bkofezEEGg4U30">
+    <meta property="og:type" content=”website” />
+    <!-- <meta property="og:url" content="https://parallax-website-by-vineet.netlify.app/"> -->
+</head>
+
+<body>
+    <!-- This is the header/ Nav Bar -->
+    <header id="header" style="display: none;">
+        <a href="#" class="logo">Parallax</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#sec">About</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- This is the Top Section (Above Water) -->
+    <section>
+        <img src="images/land/sky.png" id="sky" class="wallpaper">
+        <img src="images/land/sun.png" id="sun">
+        <img src="images/land/mountains.png" id="mountains" class="wallpaper">
+        <img src="images/land/cloud.png" id="cloud">
+        <h2 id="text"><span>Cookove Ostrovy</span><br>Rarotonga</h2>
+        <img src="images/land/forest.png" id="forest">
+        <img src="images/land/bird1.png" id="bird1">
+        <img src="images/land/bird2.png" id="bird2">
+        <a href="#sec" id="explore">Explore</a>
+        <img src="images/land/rocks.png" id="rocks">
+        <img src="images/land/splash.png" id="splash">
+        <img src="images/land/water.png" id="water">
+    </section>
+
+    <!-- This is the Middle Section (Below Water) which has content -->
+    <div class="sec" id="sec">
+
+        <!-- Importing sea background images (on top.. so that it hides behind glass content) -->
+        <img src="images/sea/sea1.png" id="sea1" class="undersea">
+        <img src="images/sea/sea2.png" id="sea2" class="undersea">
+        <img src="images/sea/sea3.png" id="sea3" class="undersea">
+        <img src="images/sea/sea4.png" id="sea4" class="undersea">
+        <img src="images/sea/sea5.png" id="sea5" class="undersea">
+        <img src="images/sea/sea6.png" id="sea6" class="undersea">
+        <img src="images/sea/sea7.png" id="sea7" class="undersea">
+        <img src="images/sea/sea8.png" id="sea8" class="undersea">
+
+
+        <br>
+
+        <div data-aos="fade-up-left" data-aos-offset="200" class="row" style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-Left: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 15px;
+        box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(4px);
+        padding: 1em;
+        margin-bottom: 2%;">
+            <div class="left">
+                <img src="./images/Timeline-45-CITC-1-Pacific-Resort-Rarotonga-Rarotonga-_resized390x570.jpg" alt=""
+                    style="height: 100%;">
+            </div>
+            <div class="right">
+                <div class="content">
+                    <h3 style="margin-top: 2%; margin-bottom: 7%;">Všeobecné informácie</h3>
+
+                    <ul>
+                        <li>
+                            <p>
+                                Rarotonga leží približne 3 000 km severovýchodne od Nového Zélandu
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Ostrov má rozlohu 67,19 km², má 13 095 obyvateľov a je vulkanického pôvodu
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Rarotonga je známa svojou bujnou vegetáciou, tropickými lesmi, čistými plážami a horami
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Je to najväčší a ostrov spomedzi Cookových ostrovov.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Najvyšším vrchom je vrchol Te Manga, ktorý dosahuje nadmorskú výšku 652 m n. m.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div data-aos="fade-up-right" data-aos-offset="200" class="row" style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-Left: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 15px;
+        box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(4px);
+        padding: 1em;
+        margin-bottom: 2%;">
+            <div class="right">
+                <div class="content">
+                    <h3 style="margin-top: 2%; margin-bottom: 7%;">Obyvateľstvo</h3>
+                    <ul>
+                        <li>
+                            <p>
+                                Obyvateľstvo ostrova je prevažne polynézske, pričom väčšina obyvateľov sa považuje za
+                                Polynézanov,
+                                konkrétne za etnickú skupinu zvanú Cook Islanders alebo Rarotongans.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Nachádzajú sa tu aj menšie komunity Európanov, Ázijcov a iných.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Obyvatelia Rarotongy sú známi svojou silnou komunitou a tradíciami.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Kultúra Cookových ostrovov je bohatá na tance, spevy, remeslá a umenie.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Väčšina obyvateľov Rarotongy je kresťanská, pričom dominantné denominácie sú
+                                protestantské cirkvi.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="left">
+                <img src="./images/Obyvatelia.png" alt="">
+            </div>
+        </div>
+
+        <br>
+
+
+        <br>
+
+        <div data-aos="fade-up-left" data-aos-offset="200" class="glass" style="margin-top: -1.4%;">
+            <h3 style="margin-top: 2%; margin-bottom: 3%;">Rastlinstvo</h3>
+            <ul>
+                <li>
+                    <h4 style="margin-bottom: 30px;">Tropické lesy</h4>
+                    <p>
+                        Väčšina ostrova je pokrytá tropickými dažďovými lesmi, ktoré sú bohaté na rôzne druhy stromov,
+                        kríkov a rastlín.
+                        Tieto lesy sú domovom mnohých endemických a vzácnych druhov rastlín, ktoré sa vyskytujú len v
+                        tejto oblasti.
+                    </p>
+                </li>
+                <li>
+                    <h4 style="margin-bottom: 30px;">Endemické rastliny</h4>
+                    <p>
+                        Ostrov má množstvo endemických druhov rastlín, ktoré sa vyskytujú len na tomto území.
+                        Patria sem rôzne druhy orchideí, tropických kvetov a stromov, ktoré nie sú bežné na iných
+                        miestach sveta.
+                    </p>
+                </li>
+                <li>
+                    <h4 style="margin-bottom: 30px;">Rastliny využívané v tradičnej medicíne</h4>
+                    <p>
+                        Miestni obyvatelia používajú rôzne rastliny na liečebné účely. Prírodné lieky založené na
+                        rastlinách sú stále bežné,
+                        pričom rôzne druhy bylín sa využívajú na liečbu zápalov, bolesti, a ďalších zdravotných
+                        problémov.
+                    </p>
+                </li>
+                <li>
+                    <h4 style="margin-bottom: 30px;">Kvetiny</h4>
+                    <p>
+                        Rarotonga je známa aj svojimi nádhernými kvetmi, ktoré zdobia krajinu. Medzi najznámejšie kvety
+                        patrí tiare (v Polynézii známa ako "plumeria"),
+                        ktorá sa často používa na ozdobu, a rôzne druhy orchideí.
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <br>
+
+        <div data-aos="fade-up-right" data-aos-offset="200" class="row" style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-Left: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 15px;
+        box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(4px);
+        padding: 1em;
+        margin-bottom: 2%;">
+            <div class="left">
+                <img src="./images/Taro.png" alt="">
+            </div>
+            <div class="right">
+                <div class="content">
+                    <h3 style="margin-top: 2%; margin-bottom: 7%;">Kuchyňa</h3>
+
+                    <ul>
+                        <li>
+                            <p>
+                                Rarotonga je obklopená korálovými útesmi, čo znamená, že ryby a iné morské plody sú
+                                základom miestnej stravy
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Populárne sú ryby ako tuňiak, mahi-mahi (delfín), snapper, a rôzne druhy kreviet a rýb
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Taro je jednou z najdôležitejších plodín na Rarotonge a v celých Cookových ostrovoch
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Taro sa často varí, pečie alebo sa pripravuje ako kaša.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Ika Mata je najznámejšie tradičné jedlo Rarotongy.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Je to surová ryba marinovaná v citrónovej šťave a kokosovom mlieku, spolu s rôznymi
+                                bylinkami a zeleninou
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div data-aos="fade-up-left" data-aos-offset="200" class="row" style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-Left: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 15px;
+        box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(4px);
+        padding: 1em;
+        margin-bottom: 2%;">
+
+            <div class="right">
+                <div class="content">
+                    <h3 style="margin-top: 2%; margin-bottom: 7%;">História</h3>
+
+                    <ul>
+                        <li>
+                            <p>
+                                Prví osadníci prišli na Rarotongu z oblasti Polynézie okolo 6. storočia nášho letopočtu.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Rarotonga sa stala dôležitým kultúrnym centrom v rámci Cookových ostrovov, s bohatou
+                                tradíciou rituálov, náboženstva a remesiel.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Prvý známy kontakt Európanov s Rarotongou sa datuje do roku 1773, keď britský moreplavec
+                                James Cook priplával na ostrov počas svojejprvej expedície do Tichomoria.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                V 19. storočí, s príchodom ďalších európskych moreplavcov a misionárov, sa začali zmeny
+                                v náboženských a spoločenských štruktúrach ostrova.
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="left">
+                <img src="./images/History.png" alt="">
+            </div>
+        </div>
+
+        <!-- Importing fish and seabed images -->
+        <img src="images/sea/fish1.png" id="fish1" class="fishes">
+        <img src="images/sea/fish2.png" id="fish2" class="fishes" style="display: none;">
+        <img src="images/sea/fish3.png" id="fish3" class="fishes" style="display: none;">
+        <img src="images/sea/fish4.png" id="fish4" class="fishes" style="display: none;">
+        <img src="images/sea/oceanbed.png" id="seabed" class="fishes">
+
+        <!-- Container for the bubble animation -->
+        <div class="bubbles">
+            <img src="images/sea/bubble.png" alt="">
+            <img src="images/sea/bubble.png" alt="">
+            <img src="images/sea/bubble.png" alt="">
+            <img src="images/sea/bubble.png" alt="">
+            <img src="images/sea/bubble.png" alt="">
+            <img src="images/sea/bubble.png" alt="">
+            <img src="images/sea/bubble.png" alt="">
+        </div>
+    </div>
+
+    <div class="popup" style="color: black;">
+        <div class="content">
+            <div class="popup-close-btn">&times;</div>
+            <h1 style="color: #003549;">Zdroje</h1>
+            <p><a style="color: #003549;" style="color: #003549;" style="color: #003549;" style="color: #003549;" style="color: #003549;" target="_blank" href="https://sk.wikipedia.org/wiki/Rarotonga">https://sk.wikipedia.org/wiki/Rarotonga</a></p>
+            <p><a style="color: #003549;" style="color: #003549;" style="color: #003549;" style="color: #003549;" target="_blank" href="https://www.pttours.sk/buxus/images/cache/ship_photo_big_new/fotogaleria/kam_plout/jizni_tichy_ocean/cookovy_ostrovy/rarotonga/Rarotonga--Cookovy-ostrovy.jpg">https://www.pttours.sk/buxus/images/cache/ <br>ship_photo_big_new/fotogaleria/kam_plout/ <br>jizni_tichy_ocean/cookovy_ostrovy/rarotonga/ <br>Rarotonga--Cookovy-ostrovy.jpg</a></p>
+            <p><a style="color: #003549;" style="color: #003549;" style="color: #003549;" target="_blank" href="https://www.thecoconet.tv/assets/resized/sm/upload/gc/d0/c0/li/taro3-0-850-0-0.jpg?k=276f97d96e">https://www.thecoconet.tv/assets/resized/sm/upload <br>/gc/d0/c0/li/taro3-0-850-0-0.jpg?k=276f97d96e</a></p>
+            <p><a style="color: #003549;" style="color: #003549;" target="_blank" href="https://content.api.news/v3/images/bin/7aa6ea11abbe06d1014cd3b252739fc0?width=1280">https://content.api.news/v3/images/bin/7aa6ea1 <br>1abbe06d1014cd3b252739fc0?width=1280</a></p>
+            <p><a style="color: #003549;" target="_blank" href="https://www.bing.com/images/blob?bcid=ROZQ7toDgAgIqxcxoNWLuD9SqbotqVTdP58">https://www.bing.com/images/blob?bcid=ROZQ7toDgAgIqxcxoNWLuD9SqbotqVTdP58</a></p>
+        </div>
+    </div>
+    <div class="center">
+        <button id="popup-open-btn">Zdroje</button>
+    </div>
+
+    <!-- Code for the footer -->
+    <div class="footer" id="footer" style="display: none;">
+        Do Follow Me On:
+        <div class="wrapper">
+            <div class="social-media">
+                <div class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <span>Instagram</span>
+            </div>
+            <div class="social-media">
+                <div class="icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <span>LinkedIn</span>
+            </div>
+            <div class="social-media">
+                <div class="icon">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <span>GitHub</span>
+            </div>
+            <div class="social-media">
+                <div class="icon">
+                    <i class="fa-solid fa-link"></i>
+                </div>
+                <span>Portfolio</span>
+            </div>
+        </div>
+        <span>A website created by Vineet Kumar ❤️<br>IT 4th Yr at SSN College of Engineering</span>
+    </div>
+
+</body>
+
+<!-- Always include javascript at end of file...just above html tag -->
+<script src="action.js"></script>
+<script src="/popup.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
