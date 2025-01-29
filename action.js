@@ -66,7 +66,7 @@ links[1].addEventListener("click", () => { openlink(2) });
 
 function openlink(x) {
     if (x == 1) {
-        window.open("https://www.instagram.com/alexkonecny40/profilecard/?igsh=MWZ3eGNxNTFnNmt1cw==", "_blank");
+        window.open("https://www.instagram.com/alexkonecny40?igsh=MWZ3eGNxNTFnNmt1cw==", "_blank");
     }
     if (x == 2) {
         window.open("https://github.com/alexkonecny/Rarotonga", "_blank");
