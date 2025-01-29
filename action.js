@@ -73,7 +73,7 @@ function openlink(x) {
         window.open("https://www.linkedin.com/in/vineet-kumar-gupta-2833ab196/", "_blank");
     }
     if (x == 3) {
-        window.open("https://github.com/VineetKumar02", "_blank");
+        window.open("https://github.com/alexkonecny/Rarotonga", "_blank");
     }
     if (x == 4) {
         window.open("https://vineet-portfolio-site.netlify.app/", "_blank");
